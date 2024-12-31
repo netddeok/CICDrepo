@@ -1,0 +1,11 @@
+version: 0.2
+
+phases:
+  install:
+    commands:
+      - echo "Installing dependencies"
+  build:
+    commands:
+      - echo "Building project"
+      - exit 1  # 빌드를 강제로 실패시키는 명령어
+
